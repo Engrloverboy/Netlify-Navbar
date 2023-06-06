@@ -177,7 +177,11 @@
     right: 0;
     top: 116px;
     box-shadow: 0 1px 4px 0 hsla(0, 100%, 0%, 0.1);
-    transform: translateX(-960px);
+    transform: translateX(-950px);
+    transition: 0.7s;
+  }
+  .active {
+    transform: translateX(0px);
   }
 }
 
