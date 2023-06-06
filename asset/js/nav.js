@@ -2,7 +2,7 @@ const closeBtn = document.querySelector(".close");
 const navBar = document.querySelector(".top_nav");
 
 const navToogler = document.querySelector(".hambuger");
-const navWrapper = document.querySelector(".ttt");
+const navWrapper = document.querySelector(".multi_step");
 
 // function removenavbar() {
 //   navBar.style.display = "none";
@@ -33,6 +33,5 @@ navBar.addEventListener("click", removenavbar);
 // opennav.addEventListener("click", menuHambuger);
 
 navToogler.addEventListener("click", () => {
-  console.log("Hello World");
   navWrapper.classList.toggle("active");
 });
